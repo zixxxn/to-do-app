@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (task !== "") {
       const li = document.createElement("li");
       li.textContent = task;
-
+ // Toggle complete
       // Toggle complete
       li.addEventListener("click", () => {
         li.classList.toggle("completed");
